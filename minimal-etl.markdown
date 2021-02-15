@@ -28,7 +28,7 @@ Now I thought "Hm, that is actually all I need in my project, but can I do it wi
 answer is yes, and it takes only a few lines to implement such a DSL!
 
 
-###A DSL in Clojure
+### A DSL in Clojure
 Let's write this DSL. What language elements do I need? Three things:
 
    1. A syntax for specifying the connections
