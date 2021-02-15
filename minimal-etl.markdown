@@ -1,6 +1,6 @@
-##Minimalistic-ETL with Clojure
+## Minimalistic-ETL with Clojure
 
-###The Problem
+### The Problem
 
 Suppose you are faced with the task to transfer data from one system to another.
 Now, suppose that these systems are SQL-friendly and have JDBC-Drivers available. This is still the case in many "enterprise"-environments. The preferred way of interacting with these systems is through interfaces tables or stored procedures.
@@ -126,7 +126,7 @@ Then define the DVM itself:
 
 Now to use the DVM you just type (apply-dvm dvm-bool (v? my-Y-N-column)).
 
-###Efficiency
+### Efficiency
 We have written a little bit of Clojure code that allows us to perform complex etl jobs.
 Why was that so simple? After all, there are many etl-tools on the market that are itself immensely complex. It is unbelievable that so little code can perfom equivalent jobs. Why is this so?
 My explanation is that these tools invent new languages that are artificially restricted to accomplish this task (Does anyone know BPEL?). Most likely, the payload from the database will be transformed to XML in aproprietary fashion,
